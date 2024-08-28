@@ -5,11 +5,12 @@ if (age>=18){
 else{
     console.log("YOur not eligible to vote")
 }
-var i=10
+var i=0
 while (i<=10){
     if (i%2===0){
-        consolr.log(i)
+        console.log(i)
     }
+    i=i+1
 }
 for(i=1;i<=10;i++){
     if(i%2===0){
